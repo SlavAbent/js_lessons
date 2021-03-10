@@ -1,0 +1,28 @@
+body{
+    margin: 50px;
+    padding: 50px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .images{
+    width: 800px;
+    height: 600px;
+}
+
+
+.container .images img {
+    width: 100%;
+    display: none;
+}
+
+.container .images img:first-child{
+    display: block;
+}

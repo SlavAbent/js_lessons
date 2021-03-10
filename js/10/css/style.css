@@ -1,0 +1,33 @@
+.h1{
+    display: flex;
+}
+
+.h2{
+    display: block;
+}
+
+.h2-active{
+    opacity: 1;
+}
+.h3-elem{
+    opacity: 0;
+}
+.toggle{
+    color: red;
+}
+
+.items{
+    display: flex;
+}
+
+.item{
+    background-color: #ccc;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.item-active{
+    border: 1px solid red;
+}
